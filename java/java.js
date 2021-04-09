@@ -1,20 +1,25 @@
+'use strict';
+
 alert("email is (mohammad)");
-
-var email = prompt('enter your email');
+let email = prompt('enter your email ');
+console.log(email);
+alert ("yor email is  " + email);
 alert("age is (25)");
-var age = prompt('enter your age');
-alert ("mohammad is your name");
-var nam = prompt("enter your name");
+let age = prompt('enter your age  ');
+age = parseInt(age);
+console.log(age);
+
+alert ("mohammad is your name  ");
+let num = prompt("enter your name   ");
+console.log(num);
+
 alert("what is date ");
-var date = prompt("enter your date");
+let date = prompt("enter your date ");
+console.log(date);
+alert ("your date is  " + date +"your name is  " + num + "your age is  " + age + "yor email is  " + email );
 
 
-document.write('<h3>'+email+'</h3>');
-document.write('<h3>'+age+'</h3>');
-document.write('<h3>'+nam+'</h3>');
-document.write('<h3>'+date+'</h3>');
+  
 
 
-function hallo(num)
-{return"hello"+num}
-hallo("mohammad");
+     
